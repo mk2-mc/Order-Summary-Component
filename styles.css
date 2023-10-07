@@ -106,7 +106,6 @@ h1 {
   background-color: var(--clr-primary-500);
   border-radius: 0.75rem;
   border: none;
-  outline: none;
   cursor: pointer;
   font-family: inherit;
   font-size: 0.95rem;
