@@ -29,13 +29,14 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   color: var(--clr-neutral-500);
+  background-color: var(--clr-primary-100);
   background-image: url("images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: var(--clr-primary-100);
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 900;
   color: var(--clr-neutral-800);
 }
@@ -82,7 +83,8 @@ h1 {
   margin-left: 1.25rem;
 }
 
-.pricing h2, .pricing p {
+.pricing h2,
+.pricing p {
   font-size: clamp(0.9rem, 3vw, 1rem);
 }
 
@@ -94,7 +96,8 @@ h1 {
   color: var(--clr-primary-500);
 }
 
-.change-link:focus-visible, .change-link:hover {
+.change-link:focus-visible,
+.change-link:hover {
   text-decoration: none;
   opacity: 75%;
 }
@@ -115,7 +118,8 @@ h1 {
   box-shadow: 0 1.25rem 1.25rem var(--clr-shadow-button);
 }
 
-.payment-button:focus-visible, .payment-button:hover {
+.payment-button:focus-visible,
+.payment-button:hover {
   opacity: 75%;
 }
 
